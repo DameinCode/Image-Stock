@@ -1,0 +1,83 @@
+.imageDiv {
+    width: 100%;
+    position: relative;
+    border: solid 1.5em rgba(0, 0, 0, .03);
+    height: 30rem;
+    max-width: 100%;
+    max-height: 30rem;
+    background: 20% / cover border-box padding-box;
+    font-size: 3em;
+}
+
+.imageDiv:before {
+    position: absolute;
+    z-index: -1;
+    top: -2em;
+    right: -2em;
+    bottom: -2em;
+    left: -2em;
+    border: inherit;
+    border-color: transparent;
+    background: inherit;
+    background-clip: border-box;
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    content: '';
+}
+
+.left {
+    float: left;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.link {
+    font-size: .9rem;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+.side {
+    margin-left: 1rem;
+}
+
+.userInfo {
+    display: flex;
+    margin-top: -5%;
+}
+
+.userName {
+    margin-top: 2px;
+    float: left;
+    margin-left: 1%;
+}
+
+.userImg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.fa-lg {
+    color: #cccccc;
+    z-index: 100;
+    display: inline-block;
+    /*margin-top: -10rem;*/
+    position: absolute;
+}
+
+.templateButtons {
+    background-color: Transparent;
+    font-weight: bold;
+    z-index: 100;
+    display: inline-block;
+    position: absolute;
+    font-size: 2rem;
+    margin-top: -7rem;
+    cursor: pointer;
+}

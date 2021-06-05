@@ -1,0 +1,21 @@
+.Button{
+    margin-top: 1%;
+    display: inline-block;
+    background: white;
+    color: #ffffff;
+    margin-right: .5%;
+    margin-left: .5%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    width: 1.4rem;
+    height: 1rem;
+}
