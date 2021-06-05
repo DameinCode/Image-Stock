@@ -1,0 +1,26 @@
+.space {
+    padding: 2%;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.left {
+    float: left;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+}
+
+.link {
+    font-size: .9rem;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+.side {
+    margin-left: 1rem;
+}

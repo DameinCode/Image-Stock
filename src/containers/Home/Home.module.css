@@ -1,0 +1,76 @@
+.home {
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    color: white;
+    /*justify-content: center;*/
+}
+hr {
+    width: 70%;
+    height: 1px;
+    background-color: #cccccc;
+    align: center;
+    margin-left: 13rem;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding-bottom: 1%;
+}
+
+.space {
+    padding: 2%;
+    justify-content: space-between;
+}
+.offersDiv {
+    margin-top: 1%;
+}
+
+.offers {
+    font-size: .8rem;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+}
+
+.offers:hover, .link:hover{
+    color: #cccccc;
+}
+
+.left {
+    float: left;
+    font-weight: bold;
+}
+.right {
+    float: right;
+}
+
+.link {
+    font-size: .9rem;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+.side {
+    margin-left: 1rem;
+}
+
+.typeView {
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.buttons {
+    border: none;
+    background: Transparent;
+}

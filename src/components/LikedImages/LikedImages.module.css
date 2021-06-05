@@ -1,0 +1,69 @@
+.Liked {
+    color: black;
+    background-color: white;
+    max-width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 2% 29% 0 20%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    justify-content: center;
+    height: 68em;
+    background: #ffffff;
+}
+
+.item {
+    /*background-color: #59bfef;*/
+    margin-bottom: 2%;
+    justify-content: center;
+
+    /*transform: scale();*/
+}
+
+
+.item:nth-child(3n+1) { order: 1; }
+.item:nth-child(3n+2) { order: 2; }
+.item:nth-child(3n)   { order: 3; }
+
+
+/* Новые колонки разделители */
+.container::before, .container::after {
+    /*content: "";*/
+    flex-basis: 100%;
+    width: 0;
+    order: 2;
+}
+
+.image {
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+}
+
+.image:hover {
+    filter: contrast(100%) grayscale(0.6) blur(7px);
+}
+
+.noneDisplay {
+    display: none;
+}
+
+.fa-lg {
+    color: #ffffff;
+    z-index: 100;
+    display: inline-block;
+    margin-top: -10rem;
+    position: absolute;
+}
+
+.typeView {
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 1%;
+    background-color: white;
+}
